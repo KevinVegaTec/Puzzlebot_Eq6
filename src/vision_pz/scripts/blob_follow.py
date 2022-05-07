@@ -1,3 +1,20 @@
+#!/usr/bin/env python
+
+# Equipo 6
+# Bryan Marquez - A01562119
+# Ernesto Garcia Gonzalez - A00827434
+# Omar Enrique Gonzalez Uresti - A00827095
+# Kevin Vega Rodriguez - A01612430
+# --------------------------------------------------
+# CODIGO NO IMPLEMENTADO, EN REVISION
+
+# Este tracker funciona de manera fluida con camara web sin embargo 
+# no se implemento para el puzzlebot, se esta evaluando su uso 
+# parcial para optimizar el algoritmo de vision
+
+
+
+
 #import the necessary packages
 from collections import deque
 from imutils.video import VideoStream
