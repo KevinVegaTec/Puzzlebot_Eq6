@@ -57,7 +57,7 @@ class LineDetector:
 
         # Overlay black box on top of image
         cv2.rectangle(threshold_image, (0, 0), (256, 128), (0,0,0), -1)
-
+        
         # Get center of the thresholded image
         M = cv2.moments(threshold_image)
 
