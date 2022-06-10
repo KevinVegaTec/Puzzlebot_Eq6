@@ -9,7 +9,7 @@
 
 # Codigo de deteccion de circulos azules el cual publica 
 # el punto en el que se detecta referenciado respecto a
-# el eje de coordenadas central asi como el tamaño del mismo
+# el eje de coordenadas central asi como el tamano del mismo
 # De manera general es un filtro HSV con otros filtros de 
 # circularidad, convexidad, etc
 
@@ -111,7 +111,7 @@ class BlobDetector:
 
             for i, keyPoint in enumerate(keypoints):
                 # Se podria optimizar un algoritmo para filtrar outliers debido 
-                # a que existen multiples detecciones pequeñas que afectan al control
+                # a que existen multiples detecciones pequenas que afectan al control
                 # del puzzlebot
                 x = keyPoint.pt[0]
                 y = keyPoint.pt[1]

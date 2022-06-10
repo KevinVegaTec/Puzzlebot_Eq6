@@ -8,32 +8,9 @@
 # --------------------------------------------------
 # CODIGO NO IMPLEMENTADO, EN REVISION
 
-# Este tracker funciona de manera fluida con camara web sin embargo 
-# no se implemento para el puzzlebot, se esta evaluando su uso 
-# parcial para optimizar el algoritmo de vision
+# Codigo base para deteccion de circulos rojos y 
+# posterior uso en aplicacion de semaforo
 
-"""
-ON THE RASPI: roslaunch raspicam_node camerav2_320x240.launch enable_raw:=true
-
-   0------------------> x (cols) Image Frame
-   |
-   |        c    Camera frame
-   |         o---> x
-   |         |
-   |         V y
-   |
-   V y (rows)
-
-
-SUBSCRIBES TO:
-    /raspicam_node/image: Source image topic
-    
-PUBLISHES TO:
-    /blob/image_blob : image with detected blob and search window
-    /blob/image_mask : masking    
-    /blob/point_blob : blob position in adimensional values wrt. camera frame
-
-"""
 
 
 #--- Allow relative importing
